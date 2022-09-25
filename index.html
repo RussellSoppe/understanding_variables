@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Understanding Variables</h1>
+
+	<section>
+		<p>A variable is a non-numerical representative for a numerical value!</p>
+	
+		<div>
+			
+			<h3>Example: L * W = A</h3>  
+			<div>L is a representative for length.</div>
+			<div>W is a representative for width.</div>
+			<div>A is a representative for Area.</div>
+
+		</div>
+		<div>
+			<div id="LWDiv">
+				<div class="inputElementDiv">
+					<p class="inputElement">L:</p> 
+					<input id="Linput" class="inputElement" type="text" inputmode="numeric" name="L-input" value="10"></input>
+				</div>
+				<div class="inputElementDiv">
+					<p class="inputElement">W:</p> 
+					<input id="Winput" class="inputElement" type="text" inputmode="numeric" name="W-input" value="5"></input>
+				</div>
+			</div>
+
+			<button id="areaButton" onclick="calcArea()">Calculate A</button>
+
+			<div id="finalAreaDiv">
+				<div class="finalAreaElement">A = </div>
+				<div id="finalArea" class="finalAreaElement">00</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="pickavariablesection">
+		<h3>Letters?</h3>
+		<div>Yes, we could use any letter for any value we want. Let's Try!</div>
+
+		<div class="selectDiv">
+
+			<div class="variableinputdiv">
+
+				<div>
+					<label for="letter1">Pick a letter:</label>
+				</div>
+				<div>
+					<select name="letter1" id="variable1">
+					  <option id="optiona1" value="a">a</option>
+					  <option id="optionb1" value="b">b</option>
+					  <option id="optionc1" value="c">c</option>
+					  <option id="optiond1" value="d">d</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="variableinputdiv">
+				<div class="variableinputelement">Variable 1 Value: </div> 
+				<input id="V1input" class="variableinputelement" type="number" inputmode="numeric" name="V1-input" value="10" placeholder="10"></input>
+			</div>
+
+		</div>
+
+		<div class="selectDiv">
+
+			<label for="operation">Pick an operation:</label>
+			<select name="operation" id="operation1">
+			  <option value="/">/</option>
+			  <option value="*">*</option>
+			  <option value="+">+</option>
+			  <option value="-">-</option>
+			</select>
+
+		</div>
+
+		<div class="selectDiv">
+
+			<div class="variableinputdiv">
+
+				<div>
+					<label for="letter2">Pick a letter:</label>
+				</div>
+
+				<div>
+					<select name="letter2" id="variable2">
+					  <option id="optione2" value="e">e</option>
+					  <option id="optionf2" value="f">f</option>
+					  <option id="optiong2" value="g">g</option>
+					  <option id="optionh2" value="h">h</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="variableinputdiv">
+				<div class="variableinputelement">Variable 2 Value</div> 
+				<input id="V2input" class="variableinputelement" type="number" inputmode="numeric" name="V2-input" value="5" placeholder="5" ></input>
+			</div>
+
+		</div>
+
+		<div>
+			<div>
+				<div>Your new expression: </div>
+				
+				<div id="yourNewExpression1" class="yournewexpressiondiv">
+					<div id="var1display" class="yournewexpressionelement">a</div>
+					<div id="operationdisplay1" class="yournewexpressionelement">*</div>
+					<div id="var2display" class="yournewexpressionelement">e</div>
+					<div class="yournewexpressionelement">=</div>
+					<div class="yournewexpressionelement">?</div>
+				</div>
+				<div id="yourNewExpression2" class="yournewexpressiondiv">
+					<div id="var1displayvalue" class="yournewexpressionelement">10</div>
+					<div id="operationdisplay2" class="yournewexpressionelement">*</div>
+					<div id="var2displayvalue" class="yournewexpressionelement">5</div>
+					<div class="yournewexpressionelement">=</div>
+					<div id="finalvarsolution" class="yournewexpressionelement">?</div>
+				</div>
+
+			</div>
+			<button id="solveExpressionButton" onclick="calcVar()">Solve Expression</button>
+		</div>
+		
+	</section>
+
+	<a href="constantOfP.html">Constant of Proportionality<a/>
+ 
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

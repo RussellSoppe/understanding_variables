@@ -1,0 +1,107 @@
+/*  # for id
+. for class  */
+  
+.proportionForumulaDiv{
+	display:  flex;
+	flex-direction: row;
+	margin: 10px;
+	font-size: 30px;
+}
+
+.proportionForumulaElement{
+	margin:  5px;
+}
+
+#LWDiv{
+	display: flex;
+	flex-direction: row;
+}
+
+.inputElementDiv{
+	display: flex;
+	flex-direction: row;
+	margin: 10px 10px 10px 0px;
+}
+
+.inputElement{
+	margin: 5px 5px 5px 0px;
+}
+
+button{
+	margin: 10px 10px 10px 0px;
+	Padding: 15px;
+	color:  white;
+	background-color:  #407F7F;
+	box-shadow: none;
+	border:  none;
+	border-radius: 5%;
+}
+
+button:hover{
+	background-color: #669999;
+}
+
+#finalAreaDiv{
+	display: flex;
+	flex-direction: row;
+	margin: 8px;
+}
+
+.finalAreaElement{
+	font-size: 20px;
+	margin: 8px 8px 8px 0px;
+}
+
+#pickavariablesection{
+	display: flex;
+	flex-direction: column;
+}
+
+.selectDiv{
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	margin: 10px 10px 10px 0px;
+	/*border: solid;*/
+}
+
+select{
+	margin: 20px 20px 30px 0px;
+}
+
+label{
+	margin:  20px 20px 30px 0px;
+}
+
+.variableinputdiv{
+	display: flex;
+	flex-direction: row;
+	margin: 10px 10px 10px 0px;
+	/*align-content: center;*/
+	align-items: center;
+	/*border:  solid;
+	border-color: blue;*/
+}
+
+.variableinputelement{
+	/*border:  solid;
+	border-color: orange;*/
+	align-content: center;
+	align-items: center;
+}
+
+#V1input, #V2input{
+	margin: 5px ;
+	/*border:  solid;
+	border-color: red;*/
+}
+
+.yournewexpressiondiv{
+	display: flex;
+	flex-direction: row;
+}
+
+.yournewexpressionelement{
+	font-size: 30px;
+	margin: 10px 10px 10px 0px;
+}

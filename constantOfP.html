@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Constant of Proportionality</h1>
+
+	<p>The constant of proportionality is the rate at which a set of equivalent ratios change, this could also be understood like a unit rate.</p>
+	
+	<div>
+		
+		<h3>y = kx</h3>  
+		<p>y is a variable, the value will vary based on the value of x and the constant of proportionality: k.</p>
+		<p>k is the varible to represent the constant of proportionality.</p>
+		<p>x is a variable, the value will vary based on the input of the user. We will use the value for a from a ratio pair a:b or the value of x from an ordered pair (x,y).</pp>
+
+	</div>
+	<div>
+		<div>
+			<p>k:</p> 
+			<input id="kInput" type="number" name="K-input" value="10"></input>
+			<button onclick="setK()">Set k</button>
+		<div>
+			<p>x:</p> 
+			<input id="xInput" type="number" name="X-input" value="5"></input>
+			<button onclick="setX()">Set x</button>
+		</div>
+		<div>
+			<div class="proportionForumulaDiv">
+				<div class="proportionForumulaElement">y</div> 
+				<div class="proportionForumulaElement">=</div>
+				<div class="proportionForumulaElement">k</div>
+				<div>(</div>
+				<div class="proportionForumulaElement">x</div>
+				<div>)</div>
+			</div>
+
+			<div class="proportionForumulaDiv">
+				<div id="finalY" class="proportionForumulaElement">y</div> 
+				<div class="proportionForumulaElement">=</div>
+				<div id="finalK"class="proportionForumulaElement">k</div>
+				<div>(</div>
+				<div id="finalX"class="proportionForumulaElement">x</div>
+				<div>)</div>
+			</div>
+			<button onclick="calcY()">Calculate Y</button>
+
+		</div>
+	</div>
+
+	<a href="index.html">Understanding Variables<a/>
+ 
+<script type="text/javascript" src="constantP.js"></script>
+</body>
+</html>
